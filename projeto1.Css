@@ -1,0 +1,114 @@
+/* ( * ) é uma classe que configura todo projeto */
+
+/* Class É um identificador de varios elementos. varios elementos dentro do HTML podendo ser estilizados iguais a tag para ser usado no Css é o ( . )*/
+/* ID serve para esilizar apenas um elemento usando o #mais o nome do ID DENTRO DO Css*/
+ 
+/* margin é um espaçamento externo*/
+/* padding interno */
+
+/* margin-top ( cima)
+margin-bottom ( baixo )
+margin-right (direira)
+margin-left (esquerda)*/
+
+/*box sizzing borde-box sempre ira organiza as coisas sem crescer na caixa*/
+
+/* Display
+- Block
+- inline
+- inline-block
+*/
+
+
+
+
+
+*{
+     font-family: "Montserrat", sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #2b2a2a;
+}
+
+header{
+       margin: 44px 0 144px 76px;
+
+}
+.link-header{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #dadada;
+        cursor: pointer;
+        margin-right: 23px;
+    }
+
+    .button-header{
+        background-color: #71c8eb;
+        border-radius: 20.5px;
+        width: 130px;
+        height: 41px;
+        border:none;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #ffffff;
+
+    }
+.img-logo{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 908;
+    font-size: 100px;
+    line-height: 122px;
+    color:#71c8eb;
+
+}
+
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color:#71c8eb;
+
+}
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height:29px;
+    color:#a5def5 ;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    
+
+
+}
+
+.button-main{
+    background: #fcab40 ;
+    border-radius: 20.5px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+
+
